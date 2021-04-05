@@ -1,11 +1,13 @@
-body {
-margin: 0;
-}
 
-  
+  .greeting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+  }
   h1 {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: #443737;
   }
   p {
     background-color: white;
@@ -15,11 +17,6 @@ margin: 0;
     padding: 3%;
     margin-right: 4%;
   }
-  
-
-  
-  /* display the main element only as a grid, the rest are flexboxes */
-  
     main {
     display: flex;
     justify-content: flex-start;

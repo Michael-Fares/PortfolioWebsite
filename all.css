@@ -17,9 +17,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* display: grid;
-  grid-template-columns: 60% 40%;
-  grid-template-rows: auto; */
+  padding: 2%;
 }
 
 a:hover {

@@ -1,49 +1,41 @@
-body,h1 {
-    margin: 0;
-    padding: 0;
-}
-body, a {
-    background-color: #bbeedd;
-}
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#272121;
-    padding: 1%;
-  }
 
 main {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: #98ded9;
-    height: 60%;
     padding-top: 2%;
 }
 
-
-  a {
-    text-decoration: none;
-    color: #272121;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 1% 2%;
-    margin: 2%;
-  }
+.container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.nasa {
+ background-image: url('./images/nasa.png');
+}
+.responsive {
+  background-image: url('./images/responsive.png');
+ }
+ .gallery {
+  background-image: url('./images/gallery.png');
+ }
+ .barber {
+  background-image: url('./images/barber.png');
+ }
+ .ttt {
+  background-image: url('./images/ttt.png');
+  background-position: top;
+ }
+ .calc {
+  background-image: url('./images/calc.png');
+ }
   
-  h1, h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-  }
-  
-  a:hover {
-    background-color: white;
-  }
-
   @media only screen and (max-width: 600px) {
       main {
           flex-direction: column;
