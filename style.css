@@ -72,6 +72,14 @@ body {
   header {
     background-color: #272121;
     }
+
+  .home {
+    color: #bedbbb;
+  }
+  .home:hover {
+    color: #98ded9;
+  }
+
   main {
     height: auto;
     margin: 0;
