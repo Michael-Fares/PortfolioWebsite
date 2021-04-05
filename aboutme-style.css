@@ -1,0 +1,87 @@
+body {
+margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #272121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+  a:hover {
+    text-shadow: 2px 2px 10px #000000;
+  }
+  
+  p {
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    padding: 3%;
+    margin-right: 4%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#272121;
+    padding: 1%;
+  }
+  
+  /* display the main element only as a grid, the rest are flexboxes */
+  
+    main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #bedbbb;
+  }
+  
+  .pic {
+    width: 30%;
+    margin: auto 5% auto 2%;
+    box-shadow: 5px 10px 8px #888888;
+   }
+    
+    footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #98ded9;
+    padding: 4%;
+  }
+    
+  
+  /* Extra small devices (phones, 600px and down) */
+   @media only screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pic {
+    margin: 4% auto;
+    width: 70%;
+  }
+  
+  p {
+    margin: 10%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3%;
+  }
+    
+  }
+  

@@ -1,0 +1,52 @@
+body,h1 {
+    margin: 0;
+    padding: 0;
+}
+body, a {
+    background-color: #bbeedd;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#272121;
+    padding: 1%;
+  }
+
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #98ded9;
+    height: 60%;
+    padding-top: 2%;
+}
+
+
+  a {
+    text-decoration: none;
+    color: #272121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1% 2%;
+    margin: 2%;
+  }
+  
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+  a:hover {
+    background-color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+      main {
+          flex-direction: column;
+          align-items: center;
+      }
+  }
