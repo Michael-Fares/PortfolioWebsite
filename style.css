@@ -1,3 +1,4 @@
+/* Begin stylesheet for all pages */
 body {
     font-family: Lato, Arial, sans-serif;
     background-image: url('background.jpg');
@@ -79,7 +80,7 @@ body {
   .home:hover {
     color: #98ded9;
   }
-
+/* end stylesheet for all pages */
   main {
     height: auto;
     margin: 0;
@@ -99,9 +100,8 @@ body {
       color: #272121;
       font-family: 'Montserrat', sans-serif;
     }
-
+/* mobile style for all pages */
   @media only screen and (max-width: 600px) { 
-
     main, footer {
       display: flex;
       flex-direction: column;
@@ -112,4 +112,5 @@ body {
     nav > a {
       font-size: 15px;
     }
+    /* end mobile style for all pages */
   }
