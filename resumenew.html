@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&family=Lato&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./all.css">
-    <!-- <link rel="stylesheet" href="./resume-style.css"> -->
+    <link rel="stylesheet" href="./resumenewstyle.css">
     <script src="https://kit.fontawesome.com/d0d85936a3.js" crossorigin="anonymous"></script>
     <script src="./hamburger.js"></script>
     </head>
@@ -33,95 +33,73 @@
         </nav>
     </header>
 <div class="maincontainer">
-    <section class="title">
-        <div class="whitebackground">
-            <!-- onclick, fade -->
-            <h1 onclick="fade(this)"><em>Miles Davis</em></h1>
-            <h3 onmouseover="pulse(this)">World Class Musician</h3>
-        </div>
-    </section>
-    <section class="profile">
-        <h3 class="underlined" onmouseover="flip(this)">Profile</h3>
-        <p>I am a timeless jazz musician whose style has influenced countless mucisians and artists after me. I was one of the pioneers of modal jazz, and jazz fusion. I have played, performed, and recorded with world class musicians the likes of Charlie Parker, Bill Evans, John Coltrane, Herbie Hancock and many more. I was inducted into the Rock and Roll Hall of Fame.</p>
-    </section>
-    <section class="photo">
-        <div class="picwrapper">
-            <img onmouseover="hideElement(this)" onmouseout="showElement(this)" class="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Miles_Davis_by_Palumbo.jpg" alt="my profile picture" alt="my profile picture">
-        </div>
-    </section>
-    <section class="reachme">
-        <h3 class="underlined" onmouseover="flip(this)">Reach Me</h3>
-        <div class="iconwrapper"> 
-            <i class="fas fa-phone-square-alt" onclick="showPhoneNumber()"></i>
-            <div class="phonenumber">
-            <p>999-999-9999</p>
-            <p>111-111-1111</p>
-            </div>
-        </div>
-        <br>
-        <div class="iconwrapper">       
-            <i class="far fa-envelope" onclick="showEmail()"></i>
-            <p class="contactinfo email">milesdavis@email.com</p>
-        </div>
-    </section>
-    <div class="skillsheader">
-        <h3 onmouseover="flip(this)">Skills</h3>
-    </div>
-    <section class="education" >
-        <h3 class="has-background" onmouseover="flip(this)">Education</h3>
-        <h4>1944 - 1945</h4>
-        <h4>Julliard School of Music</h4>
-        <p>Trumpet Performance and Music Theory</p><br>
-        <h4>1940  - 1944</h4>
-        <h4>East St. Louis Lincoln High School</h4>
-        <p>Playing trumpet all the time</p>
-    </section>
-    <section class="skills" onmouseover="flip(this)">
-        <p>Trumpet</p>
-        <p>Improvisation</p>
-        <p>Arranging</p>
-        <p>Jazz Fusion</p>
-    </section>
-    <section class="expertise">
-        <h3 class="has-background" onmouseover="flip(this)">Expertise</h3>
-          <h4>Trumpet</h4>
-          <h4>Modal Jazz</h4>
-          <h4>Funk</h4>
-          <h4>Music Theory</h4>     
-    </section>
-    <div class="experience">
-        <div class="blueline"></div>
-        <h3 class="has-background" onmouseover="flip(this)">EXPERIENCE</h3>
-        <div class="blueline"></div>
-    </div>
-    <section class="work">
-        <article>
-            <h4 class=lowercase>January 2024</h4>
-            <h4>Company 1</h4>
-            <p>Job title 1</p>
-            <ul> 
-                <li>lorem ipsum dolor sit amet consectetur adipiscing, elit orci sodales rhoncus feugiat sed fames, ridiculus quam sagittis himenaeos egestas.</li>
-                <li>lorem ipsum dolor sit amet consectetur adipiscing, elit orci sodales rhoncus feugiat sed fames, ridiculus quam sagittis himenaeos egestas.</li>
-                <li>lorem ipsum dolor sit amet consectetur adipiscing, elit orci sodales rhoncus feugiat sed fames, ridiculus quam sagittis himenaeos egestas.</li>
-            </ul>
-        </article>
-        <article class="margintop">
-            <h4 class=lowercase>September 2025 - Present</h4>
-            <h4>Company 2</h4>
-            <p>Job title 2</p>
-            <ul>
-                <li>lorem ipsum dolor sit amet consectetur adipiscing, elit orci sodales rhoncus feugiat sed fames, ridiculus quam sagittis himenaeos egestas.</li>
-                <li>lorem ipsum dolor sit amet consectetur adipiscing, elit orci sodales rhoncus feugiat sed fames, ridiculus quam sagittis himenaeos egestas.</li>
-                <li>lorem ipsum dolor sit amet consectetur adipiscing, elit orci sodales rhoncus feugiat sed fames, ridiculus quam sagittis himenaeos egestas.</li>
-            </ul>
-        </article>
-    </section>
-</div>
-<footer>
-    <ul class="contact"> Contact
+    <section class="header column">
+        <h1 class="underlined">Michael Fares</h1>
+        <p class="subheading">Educator and Web Developer</p>
+      </section>
+  <section class="img column"></section>
+  <section class="contact1 column">
+    <ul class="contact1"> Contact
         <li>Email: mjfares@gmail.com</li>
         <li>Phone: 703.244.0370</li>
     </ul>
+  </section>
+  <section class="personal-summary column">
+      <h3>Personal Summary</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde error eveniet, totam itaque veniam alias. Suscipit mollitia odio, omnis ullam nisi eveniet porro corrupti a saepe? Eos, ab minus!</p>
+  </section>
+  <section class="skills column">
+      <h3>Core Skills</h3>
+      <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+      </ul>
+  </section>
+  <section class="work-history column">
+      <h3>Work History</h3>
+      <h4>Job 1</h4>
+      <h5>Job 1 deatils Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur modi quos possimus neque sunt unde dolorem ullam</h5>
+      <h4>Job 2</h4>
+      <h5>Job 2 deatils Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur modi quos possimus neque sunt unde dolorem ullam</h5>
+  </section>
+  <section class="work-bullets column">
+      <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+      <br>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+  </section>
+  <section class="education column">
+    <h3>Education</h3>
+    <h4>School 1</h4>
+    <h5>School 1 deatils Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur modi quos possimus neque sunt unde dolorem ullam</h5>
+    <h4>School 2</h4>
+    <h5>School 2 deatils Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur modi quos possimus neque sunt unde dolorem ullam</h5>
+  </section>
+  <section class="education-bullets column">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <br>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
+  </section>
+</div>
+<footer>
+    
     
    <div class="icons">
            <a href="https://www.linkedin.com/in/michael-fares-52613960/" target="blank"><i class="fab fab fa-linkedin"></i></a>
