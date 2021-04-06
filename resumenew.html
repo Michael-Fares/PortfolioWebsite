@@ -1,35 +1,30 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Resume</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    <!-- linking css animate -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./all.css">
-  <!-- <link rel="stylesheet" href="./resume-style.css"> -->
-  <script src="./resume-interactive.js"></script>
-  <!-- script for icons from fontawesome -->
-  <script src="https://kit.fontawesome.com/d0d85936a3.js" crossorigin="anonymous"></script>
-  <!-- END script -->
-  <script src="./hamburger.js"></script>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./all.css">
+    <!-- <link rel="stylesheet" href="./resume-style.css"> -->
+    <script src="https://kit.fontawesome.com/d0d85936a3.js" crossorigin="anonymous"></script>
+    <script src="./hamburger.js"></script>
+    </head>
 <body>
     <header>
         <nav class="topnav">
             <a class="home" href="./index.html" target="blank">Home</a>
             <div id="myLinks">
-            <a href="./resumenew.html" target="blank">Resume</a>
-            <a href="./aboutme.html" target="blank">About</a>
+            <a href="./resumenew.html">Resume</a>
+            <a href="./aboutme.html">About</a>
             <a href="https://michael-fares.medium.com/" target="blank">My Blog</a>
-            <a href="./portfolio.html" target="blank">My Portfolio</a>
+            <a href="./portfolio.html">My Portfolio</a>
            </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->      
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -38,13 +33,13 @@
         </nav>
     </header>
 <div class="maincontainer">
-    <header>
+    <section class="title">
         <div class="whitebackground">
             <!-- onclick, fade -->
             <h1 onclick="fade(this)"><em>Miles Davis</em></h1>
             <h3 onmouseover="pulse(this)">World Class Musician</h3>
         </div>
-    </header>
+    </section>
     <section class="profile">
         <h3 class="underlined" onmouseover="flip(this)">Profile</h3>
         <p>I am a timeless jazz musician whose style has influenced countless mucisians and artists after me. I was one of the pioneers of modal jazz, and jazz fusion. I have played, performed, and recorded with world class musicians the likes of Charlie Parker, Bill Evans, John Coltrane, Herbie Hancock and many more. I was inducted into the Rock and Roll Hall of Fame.</p>

@@ -26,7 +26,7 @@ body {
     color: #bedbbb;
   }
 
-  nav, #mylinks {
+  nav {
     display: flex;
     justify-content: center;
     align-items: center;

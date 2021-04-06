@@ -1,4 +1,4 @@
-body {
+section {
     font-family: 'Lato', sans-serif;
 }
 
@@ -22,7 +22,7 @@ i:hover {
     grid-gap: 20px;
 }
 
-header {
+.title {
     grid-column: 1/-1; 
     grid-row: 1/2;
     background-color:lightblue;
