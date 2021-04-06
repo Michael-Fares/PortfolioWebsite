@@ -5,16 +5,21 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #98ded9;
-    padding-top: 2%;
+    padding: 2%;
 }
 
 .container {
   width: 300px;
   height: 300px;
-  border: 1px solid black;
+  /* border: 1px solid #272727; */
   margin: 10px;
   background-size: cover;
   background-position: center;
+  box-shadow: 5px 5px 5px #272727;
+}
+.container:hover {
+  box-shadow: 5px 5px 5px #bed989;
+  outline: 2px solid  #bed989;
 }
 .nasa {
  background-image: url('./images/nasa.png');

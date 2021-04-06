@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Michael Fares</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&family=Montserrat&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,25 +14,35 @@
 <link rel="stylesheet" href="./all.css">
 <link rel="stylesheet" href="./aboutme-style.css">
 <script src="https://kit.fontawesome.com/d0d85936a3.js" crossorigin="anonymous"></script>
+<script src="./hamburger.js"></script>
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="topnav">
         <a class="home" href="./index.html" target="blank">Home</a>
-        <a href="./resume.html" target="blank">Resume</a>
+        <div id="myLinks">
+        <a href="./resumenew.html" target="blank">Resume</a>
         <a href="./aboutme.html" target="blank">About</a>
         <a href="https://michael-fares.medium.com/" target="blank">My Blog</a>
         <a href="./portfolio.html" target="blank">My Portfolio</a>
+       </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->      
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+</a>
     </nav>
 </header>
+
+  <main>
+  <img class="pic" src="./aboutme.jpeg" alt="This is my image">
+  <div class="wrapper">
   <section class="greeting">
     <h1>Hi, I'm Michael Fares.</h1>
   </section>
-  <main>
-  <img class="pic" src="./aboutme.jpeg" alt="This is my image">
   <p>
     I am an educator, musician, aspiring web developer, and citizen of the world based in Houston, TX. I have worked as a professor of Arabic at University of Houston for ten years. I am half-American, half-Lebanese, and have been lucky enough to to travel to many places in between. I grew up in the Middle East for most of my childhood. One of the things that stimulates me most is the opportunity to engage with different people, cultures, and ideas, preferably over a strong cup of coffee. Aside from cooking good food, enjoying the outdoors, and spending quality time with family and friends, music is my number one passion. I play guitar, keyboards, and the Arabic oud. No matter the nature of the work I happen to be doing at a particular time, my goal is always to bring a creative spirit to everything I do. I invite you to check out the links below to discover more about my work. If you like what you see, drop me a line and I would love to be a part of your next project!
   </p>
+  </div> 
   </main>
   <footer>
     <ul class="contact"> Contact
