@@ -24,6 +24,12 @@ body {
 
   a:hover {
     color: #bedbbb;
+    transition: all ease 0.5s;
+    transform: scale(1.2);
+  }
+  a:active {
+    transition: all ease 0.5s;
+    color: white;
   }
 
   nav {
