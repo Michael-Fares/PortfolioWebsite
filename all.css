@@ -21,14 +21,14 @@ body {
     align-items: center;
     padding: 2%;
   }
-
+  a {
+    transition: all ease 0.5s;
+  }
   a:hover {
     color: #bedbbb;
-    transition: all ease 0.5s;
     transform: scale(1.2);
   }
   a:active {
-    transition: all ease 0.5s;
     color: white;
   }
 
@@ -89,6 +89,12 @@ body {
   }
 /* mobile style for all pages */
 @media only screen and (max-width: 600px) { 
+  .topnav a:hover {
+    transform: none;
+  }
+  .topnav a:active {
+    background-color: #98ded9;
+  }
   .topnav #myLinks {
     display: none;
   }

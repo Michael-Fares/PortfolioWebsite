@@ -4,7 +4,6 @@
     justify-content: start;
     align-items: flex-start;
     padding-left: 5%;
-    border: 2px solid red;
 }
 section.img {
     background-color: red;
@@ -12,7 +11,7 @@ section.img {
     background-image: url(./images/michael-fares.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 10%;
 }
 section.contact1 {
     grid-row: 3/-1;
@@ -44,21 +43,67 @@ section.education-bullets {
     grid-row: 4/-1;
     grid-column: 3/-1;
 }
-
+#header {
+    background-color: #98ded9;
+    display: flex;
+    justify-content: center;
+}
+#contact {
+    background-color: #443737;
+    padding: 8%;
+}
 .maincontainer {
     height: auto;
     display: grid;
     grid-template-columns: 25% 1fr 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 20% 1fr 1fr 1fr
 }
+h1.underlined {
+    font-size: 50px;
+    border-bottom: 2px solid #443737;
+}
+p.subheading {
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+.maincontainer section {
+    background-color: #bedbbb;
+    color: #272121;
+}
+.padded {
+    padding-top: 5%;
+}
+.borderbottom {
+    border-bottom: 1px solid #272121;
+}
+.borderright {
+    border-right: 1px solid #272121;
+}
+.work-bullets ul li, .education-bullets ul li {
+    font-size: 14px;
+    padding-right: 4%;
+}
+.work-bullets ul, .education-bullets ul {
+    padding-top: 5%;
+}
+
 @media only screen and (max-width: 600px) {
    .maincontainer {
        display: flex;
        flex-direction: column;
+   } 
+   #header, #contact {
+    align-items: center;
+    padding: 4%;
+   }
+   #header {
+       background-color: #bedbbb;
    }
 .img {
     height: 250px;
     width: 200px;
     margin: 0 auto;
+    border: 1px solid #272121;
+    border-top:none;
 }
   }
