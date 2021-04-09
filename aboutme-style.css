@@ -39,6 +39,18 @@
     filter: brightness(130%);
     justify-self: flex-start;
    }
+   .animate__fadeInDown {
+      animation-duration: 2s;
+      animation-delay: 3s;
+   }
+   .animate__fadeInLeft {
+    animation-duration: 3s;
+    animation-delay: 4.5s;
+   }
+   .animate__fadeIn {
+     animation-duration: 5s;
+   }
+
   
    @media only screen and (max-width: 768px) {
   main {
@@ -62,7 +74,7 @@
     padding: 3%;
   }
 h1 {
-  font-size: initial;
+  font-size: 25px;
 }
 .greeting {
   width: 100%;

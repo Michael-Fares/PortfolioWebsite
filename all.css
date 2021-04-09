@@ -31,7 +31,6 @@ body {
   a:active {
     color: white;
   }
-
   nav {
     display: flex;
     justify-content: center;
@@ -53,8 +52,6 @@ body {
     background-size: cover;
     background-position: 80%;
   }
-
-
   .contact {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -89,7 +86,7 @@ body {
   }
 /* mobile style for all pages */
 @media only screen and (max-width: 600px) { 
-  .topnav a:hover {
+  a:hover {
     transform: none;
   }
   .topnav a:active {
@@ -106,7 +103,7 @@ body {
     padding-top: 5%;
   }
   nav a {
-    font-size: 15px;
+    font-size: 30px;
   }
   .topnav {
     flex-direction: column;
@@ -118,10 +115,10 @@ body {
     top: 0;
   }
   #myLinks a {
-    border: 1px solid #bedbbb;
-    margin: 1px;
+    border-top: 1px solid #bedbbb;
+    margin: 0 auto;
     padding: 10px;
-    width: 100%;
+    width: 100vw;
   }
   /* end mobile style for all pages */
 }
