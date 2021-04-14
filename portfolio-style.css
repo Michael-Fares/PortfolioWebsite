@@ -38,6 +38,9 @@ main {
   background-image: url('./images/ttt.png');
   background-position: top;
  }
+.star {
+  background-image: url('./images/star.png');
+}
  .calc {
   background-image: url('./images/calc.png');
  }
