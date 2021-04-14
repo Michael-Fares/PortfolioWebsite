@@ -50,7 +50,7 @@ body {
     box-shadow: 40px 1px #bedbbb;
     background-image: url('./myProfilePic.jpg');
     background-size: cover;
-    background-position: 80%;
+    background-position: center;
   }
   .contact {
     color: white;

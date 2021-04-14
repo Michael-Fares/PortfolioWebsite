@@ -29,6 +29,7 @@ main {
  }
  .gallery {
   background-image: url('./images/gallery.png');
+  background-position: 10% 20%;
  }
  .barber {
   background-image: url('./images/barber.png');
@@ -39,6 +40,9 @@ main {
  }
  .calc {
   background-image: url('./images/calc.png');
+ }
+ .todo {
+  background-image: url('./images/todo.png');
  }
   
   @media only screen and (max-width: 600px) {

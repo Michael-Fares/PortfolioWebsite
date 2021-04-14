@@ -1,9 +1,16 @@
+.contact {
+    color: white;
+}
+.contact a {
+    color: white;
+}
 .column {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
     padding: 5%;
+    padding-left: 30px;
 }
 .centered {
     display: flex;
@@ -113,7 +120,7 @@ h3 {
 .contact {
     margin-top: 5%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 812px) {
    .maincontainer {
        display: flex;
        flex-direction: column;
@@ -125,11 +132,19 @@ h3 {
    #header {
        background-color: #bedbbb;
    }
-.img {
+section.img {
     height: 250px;
     width: 200px;
     margin: 0 auto;
     border: 1px solid #272121;
     border-top:none;
 }
+}
+@media only screen and (max-width: 600px) {
+  h1.underlined {
+      font-size: 40px;
   }
+  p.subheading {
+      font-size: 16px;
+  }
+ }
