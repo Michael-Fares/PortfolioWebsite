@@ -42,12 +42,13 @@ body {
   /* This is an ID selector */
   
   .profile-pic {
-    width: 230px;
-    height: 230px;
-    margin: 2% auto;
+    width: 300px;
+    height: 300px;
+    margin: 2% auto 0 auto;
     grid-column: 2/3;
     border-radius: 50%;
-    box-shadow: 40px 1px #bedbbb;
+    border-left: 50px solid #443737;
+    box-shadow: 20px 1px #443737;
     background-image: url('./myProfilePic.jpg');
     background-size: cover;
     background-position: center;
