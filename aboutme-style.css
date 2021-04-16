@@ -39,7 +39,8 @@
     filter: brightness(130%);
     justify-self: flex-start;
    }
-   .animate__fadeInDown {
+    /* Took this out because I could not get it to work on safari on the iphone */
+   /* .animate__fadeInDown {
       animation-duration: 2s;
       animation-delay: 3s;
       -webkit-animation-delay: 3s;
@@ -59,7 +60,7 @@
      animation-duration: 5s;
      -webkit-animation-duration: 5s;
      -moz-animation-duration: 5s;
-   }
+   } */
 
   
    @media only screen and (max-width: 768px) {

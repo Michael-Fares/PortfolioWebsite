@@ -48,7 +48,7 @@ body {
     grid-column: 2/3;
     border-radius: 50%;
     border-left: 50px solid #443737;
-    box-shadow: 20px 1px #443737;
+    box-shadow: 20px 1px 10px #443737;
     background-image: url('./myProfilePic.jpg');
     background-size: cover;
     background-position: center;
@@ -78,7 +78,6 @@ body {
   header {
     background-color: #272121;
     }
-
   .home {
     color: #bedbbb;
   }
@@ -104,7 +103,7 @@ body {
     padding-top: 5%;
   }
   nav a {
-    font-size: 30px;
+    font-size: 20px;
   }
   .topnav {
     flex-direction: column;
@@ -120,6 +119,11 @@ body {
     margin: 0 auto;
     padding: 10px;
     width: 100vw;
+    background-color: #443737;
+  }
+  .profile-pic {
+    width: 230px;
+    height: 230px;
   }
   /* end mobile style for all pages */
 }
