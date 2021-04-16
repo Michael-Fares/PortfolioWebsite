@@ -127,3 +127,9 @@ body {
   }
   /* end mobile style for all pages */
 }
+
+@media only screen and (min-width: 601px) {
+#myLinks {
+  animation:none;
+}
+}
