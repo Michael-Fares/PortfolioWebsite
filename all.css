@@ -121,6 +121,9 @@ body {
     width: 100vw;
     background-color: #443737;
   }
+  #myLinks {
+    width: 100vw;
+  }
   .profile-pic {
     width: 230px;
     height: 230px;
